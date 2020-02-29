@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Rate Calculator</title>
+</head>
+<body>
+    <h1>Tax Rate Calculator</h1>
+    <div class="inputs">
+        <input id="gross" type="number">
+    </div>
+
+    <div class="outputs">
+        <p>Tax Owed:</p><output id="owed"></output>
+        <p>Effective Tax Rate:</p><output id="taxRate"></output>
+        <p>Retained Earnings:</p><output id="retained"></output>
+        <output id="errorCode"></output>
+    </div>
+
+    <div class="buttons">
+        <input id="run" type="button" value="Calculate" />
+        <input id="clear" type="button" value="Clear" />
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
