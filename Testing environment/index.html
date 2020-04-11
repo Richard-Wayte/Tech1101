@@ -6,23 +6,35 @@
 <body>
     <script src="./index.js"></script>
     <link rel="stylesheet" href="./styles.css"/>
-    
-    <h2>Accordion</h2>
 
-    <button class="accordion">Section 1</button>
-    <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
-    <button class="accordion">Section 2</button>
-    <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
-    <button class="accordion">Section 3</button>
-    <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
+    <div class="accordionWrapper">
+        <div class="accordionItem open">
+              <h2 class="accordionItemHeading">About accordions</h2>
+              <div class="accordionItemContent">
+                <p>JavaScript accordions let you squeeze a lot of content into a small space in a Web page.</p>
+                <p>This simple accordion degrades gracefully in browsers that don't support JavaScript or CSS.</p>
+              </div>
+            </div>
+        
+            <div class="accordionItem close">
+              <h2 class="accordionItemHeading">Accordion items</h2>
+              <div class="accordionItemContent">
+                <p>A JavaScript accordion is made up of a number of expandable/collapsible items. Only one item is ever shown at a time.</p>
+                <p>You can include any content you want inside an accordion item. Here's a bullet list:</p>
+                <ul>
+                  <li>List item #1</li>
+                  <li>List item #2</li>
+                  <li>List item #3</li>
+                </ul>
+              </div>
+            </div>
+        
+            <div class="accordionItem close">
+              <h2 class="accordionItemHeading">How to use a JavaScript accordion</h2>
+              <div class="accordionItemContent">
+                <p>Click an accordion item's heading to expand it. To collapse the item, click it again, or click another item heading.</p>
+              </div>
+            </div>
+        </div>
 </body>
 </html>
