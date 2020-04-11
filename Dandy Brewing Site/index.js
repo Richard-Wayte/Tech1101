@@ -1,4 +1,3 @@
-console.log ("Spinning up")
 const acc = document.getElementsByClassName("accordion");
 const final = document.getElementById("dynamic");
 let i;
